@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="index.css">
+ </head>
+    <body>
+
+        <div class="contenedor">
+            <h1>Formulario</h1>
+
+            <h3>Datos Personales</h3>
+            <form action="" class="formulario">
+                <div class="nombre-apellido">
+                    <label>Nombre  <input type="text" name="Nombre" class="nombre"></label>
+                   
+                    <label>Apellido  <input type="text" name="apellido" class="nombre"></label>
+                </div>
+
+                <label>Correo Electronico <input type="email" class="correo"></label>
+                <br>
+                <label class="residencia-2">Lugar de Residencia 
+                    <select name="Ciudad" id="text">
+                        <option value="a">Dosquebradas</option>
+                        <option value="v">Pereira</option>
+                        <option value="b">Cartago</option>
+                    </select>
+                </label>
+
+                <div class="trabajo">
+                   <p><b>¿Trabaja?</b></p>
+                        <input type="radio" name="opciones"class="input">
+                            <strong class="input">Si</strong>
+                        <input type="radio" name="opciones"  class="input">
+                            <strong class="input">No</strong>
+                </div>
+
+                <p class="selec"><b>Seleccione alguno de sus pasatiempos</b></p>
+
+                <div class="pasatiempos">
+                    <div class="izq">
+                    
+                        <label for="futbol">
+                            <input id="futbol" name="futbol" type="checkbox"> Futbol
+                        </label>
+                        
+                        <label for="leer">
+                            <input id="leer" name="Leer" type="checkbox" > Leer
+                        </label>
+                        
+                        <label for="beisbpol">
+                            <input id="beisbpol" name="Beisbol" type="checkbox" > Beisbol
+                        </label>
+                        
+                        <label for="estudiar">
+                            <input id="estudiar" name="Estudiar" type="checkbox" > Estudiar
+                        </label>
+                    </div>
+        
+                    <div class="der">
+                        <label for="Trabajar">
+                            <input id="Trabajar" name="Trabajar" type="checkbox">
+                            Trabajar
+                        </label>
+            
+                        <label for="Tenis">
+                            <input id="Tenis" name="Tenis" type="checkbox">
+                            Tenis
+                        </label>
+            
+                        <label for="basket">
+                            <input id="basket" name="basketball" type="checkbox">
+                            Basketball
+                        </label>
+                        
+                        <label for="peliculas">
+                            <input id="peliculas" name="peliculas" type="checkbox">
+                            Peliculas
+                        </label>
+        
+                    </div>
+                </div>
+                <div class="boton">
+                    <button>Empezar Ahora</button>
+                </div>
+            </form>
+        </div>
+
+    </body>
+</html>

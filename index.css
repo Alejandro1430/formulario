@@ -1,0 +1,125 @@
+
+ body{
+     margin: 0;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 100vw;
+     height: 100vh;
+     background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGyiGa7ToTpSBWgH9130fkDZJ5UWSEwW0MqiqS-BLXAaj2dTkIaD1HxD4PVAebjTlP7nA&usqp=CAU) no-repeat;
+     background-size: cover;
+ }
+
+ .contenedor{
+     background-color: rgba(77, 113, 255, 0.7);
+     display: flex;
+     flex-direction: column;
+     max-height: 600px;
+     height: 90%;
+     width:600px;
+     padding: 0 30px;
+     border-radius: 30px;
+ }
+
+ h1{
+     text-align: center;
+ }
+
+ h3{
+     text-align: center;
+ }
+
+ .nombre-apellido{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     margin-bottom:25px ;
+     margin-top: 25px;
+     box-sizing: border-box;
+     font-size: 16px;
+ }
+
+.nombre-apellido input{
+     border-radius: 0.7rem;
+     height: 25px;
+     width:170px;
+     border: none;
+     padding: 0 10px;
+ }
+
+ .correo{
+    border-radius: 0.7rem;
+    height: 25px;
+    width:300px;
+    border: none;
+    padding: 0 10px;
+    margin-bottom: 25px;
+ }
+
+ .nombre-apellido label{
+     font-size: 16px;
+ }
+
+ #text{
+     width: 300px;
+     height: 25px;
+     padding: 0 10px;
+     border-radius: 0.7rem;
+ }
+
+
+ .trabajo p{
+    font-size: 20px;
+    margin-top: 30px;
+ }
+
+ .selec{
+     text-align: center;
+ }
+
+ .formulario p{
+     font-size: 20px;
+ }
+
+ .pasatiempos{
+     display: flex;
+     font-size: 16px;
+     justify-content: space-around;
+     margin-bottom: 25px;
+ }
+
+ .izq{
+     display: flex;
+     flex-direction: column;
+ }
+
+ .der{
+    display: flex;
+    flex-direction: column;
+ }
+
+ button{
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 0.6rem;
+    height: 25px;
+    background-color: blue;
+    border-color: red;
+    color: aqua;
+}
+
+ button:hover{
+     margin: 0 auto;
+     text-align: center;
+     border-radius: 0.6rem;
+     height: 25px;
+     background-color: orange;
+     border-color: yellow;
+     color: aqua;
+ }
+
+ .boton{
+     display: flex;
+     justify-content: center;
+ }
